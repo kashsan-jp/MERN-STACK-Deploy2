@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Layout from "./pages/layout"
+
 import Login from "./pages/users/Login"
 import Register from "./pages/users/Register"
 import Dashboard from "./pages/users/Dashboard"
@@ -8,6 +8,7 @@ import Create from "./pages/posts/Create"
 import Update from "./pages/posts/Update"
 import AuthRoutes from "./Routes/AuthRoutes"
 import GuestRoutes from "./Routes/GuestRoutes"
+import Layout from "./pages/layout"
 
 const App = () => {
   return <BrowserRouter>
